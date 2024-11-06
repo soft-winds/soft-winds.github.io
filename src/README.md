@@ -3,10 +3,12 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-heroImage: /logo.png
+heroImage: "https://blog-1307668273.cos.ap-guangzhou.myqcloud.com/logo.png"
+bgImage: "https://blog-1307668273.cos.ap-guangzhou.myqcloud.com/bgImage.png"
 heroText: 七月的星期七
 heroFullScreen: false
 tagline: 在日出之际，让我们对世界说早安！
+
 projects:
   - icon: project
     name: 项目名称
