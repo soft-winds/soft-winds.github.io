@@ -3,16 +3,9 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "前端",
-    link: "/web/",
-  },
-  {
-    text: "后端",
-    link: "/server/",
-  },
-  {
-    text: "我的项目",
-    link: "/项目/",
+    text: "项目合集",
+    link: "/项目合集/",
+    icon: "pen-to-square",
   },
   // "/demo/",
   // {

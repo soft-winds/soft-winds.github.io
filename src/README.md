@@ -10,14 +10,14 @@ heroFullScreen: false
 tagline: 在日出之际，让我们对世界说早安！
 
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
+  - icon: fa-brands fa-free-code-camp
+    name: 小慕读书
+    desc: 基于vue3+nestjs构建
     link: https://你的项目链接
 
   - icon: link
-    name: 链接名称
-    desc: 链接详细描述
+    name: UI组件库
+    desc: 供vue3使用的UI组件库
     link: https://链接地址
 
   - icon: book

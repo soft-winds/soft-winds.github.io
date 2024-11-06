@@ -11,7 +11,7 @@ export default hopeTheme({
   },
 
   iconAssets: "fontawesome-with-brands",
-
+  iconPrefix: "fas fa-",
   logo: "https://blog-1307668273.cos.ap-guangzhou.myqcloud.com/logo.png",
 
   repo: "soft-winds",
@@ -23,7 +23,7 @@ export default hopeTheme({
   // sidebar
   sidebar,
 
-  footer: "默认页脚",
+  footer: "soft-winds",
 
   displayFooter: true,
 
