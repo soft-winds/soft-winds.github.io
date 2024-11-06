@@ -1,5 +1,6 @@
 ---
 icon: circle-info
+time: 1999-10-26
 cover: /assets/images/cover3.jpg
 ---
 
