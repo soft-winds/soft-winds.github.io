@@ -24,8 +24,8 @@ export default sidebar({
     },
     {
       text: "我的项目",
-      prefix: "project/",
-      link: "project/",
+      prefix: "项目/",
+      link: "项目/",
       children: "structure",
     },
     "intro",

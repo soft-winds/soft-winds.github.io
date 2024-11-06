@@ -12,7 +12,7 @@ export default navbar([
   },
   {
     text: "我的项目",
-    link: "/project/",
+    link: "/项目/",
   },
   // "/demo/",
   // {
