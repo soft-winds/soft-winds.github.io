@@ -4,9 +4,9 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "项目合集",
-      prefix: "项目合集/",
-      link: "项目合集/",
+      text: "vue",
+      prefix: "vue/",
+      link: "vue/",
       children: "structure",
     },
     "intro",

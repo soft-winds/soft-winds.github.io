@@ -3,9 +3,9 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   "/",
   {
-    text: "项目合集",
-    link: "/项目合集/",
-    icon: "pen-to-square",
+    text: "vue",
+    link: "/vue/",
+    icon: "code",
   },
   // "/demo/",
   // {
