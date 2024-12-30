@@ -84,7 +84,7 @@ export const useDict = (groupNo, apiUrl, obj) => {
 ```vue
 <template>
   <div>
-    <el-select v-model="value" placeholder="请选择">
+    <el-select v-model="value" placeholder="请选择" @change="handleChange">
       <el-option
         v-for="item in options"
         :key="item.value"

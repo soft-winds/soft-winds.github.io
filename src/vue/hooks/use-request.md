@@ -76,6 +76,8 @@ const { loading, dataSource, page, run } = useReuqest((data) => {
   return data;
 });
 const filter = ref({
+  url: "/api/table",
+  method: "post",
   data: {
     name: "test",
   },
