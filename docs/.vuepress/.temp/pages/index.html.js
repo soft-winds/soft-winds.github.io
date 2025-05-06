@@ -1,3 +1,0 @@
-import comp from "E:/AI/blog/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"home\":true},\"git\":{\"updatedTime\":1746517506000,\"contributors\":[{\"name\":\"刘晓迪\",\"username\":\"\",\"email\":\"xiaodi195815052@163.com\",\"commits\":1}],\"changelog\":[{\"hash\":\"387060f1c8e74c2d52edb7059ed2e0e4928f3fde\",\"time\":1746517506000,\"email\":\"xiaodi195815052@163.com\",\"author\":\"刘晓迪\",\"message\":\"版本更新v2.0\"}]},\"filePathRelative\":\"README.md\",\"readingTime\":{\"minutes\":0.74,\"words\":223}}")
-export { comp, data }
