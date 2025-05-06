@@ -1,0 +1,43 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "个人博客",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "docs:update-package": "npx vp-update"
+  },
+  "keywords": [
+    "blog",
+    "vuepress",
+    "vue3",
+    "typescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.22",
+    "@vuepress/client": "next",
+    "@vuepress/plugin-active-header-links": "^2.0.0-rc.98",
+    "@vuepress/plugin-back-to-top": "^2.0.0-rc.99",
+    "@vuepress/plugin-blog": "^2.0.0-rc.99",
+    "@vuepress/plugin-catalog": "^2.0.0-rc.99",
+    "@vuepress/plugin-comment": "^2.0.0-rc.99",
+    "@vuepress/plugin-copy-code": "^2.0.0-rc.99",
+    "@vuepress/plugin-docsearch": "^2.0.0-rc.99",
+    "@vuepress/plugin-markdown-image": "^2.0.0-rc.101",
+    "@vuepress/plugin-markdown-tab": "^2.0.0-rc.101",
+    "@vuepress/plugin-nprogress": "^2.0.0-rc.99",
+    "@vuepress/plugin-reading-time": "^2.0.0-rc.99",
+    "@vuepress/plugin-shiki": "^2.0.0-rc.99",
+    "@vuepress/plugin-toc": "^2.0.0-rc.99",
+    "@vuepress/shared-utils": "^1.9.10",
+    "@vuepress/theme-default": "next",
+    "sass-embedded": "^1.87.0",
+    "typescript": "^5.0.0",
+    "vue": "^3.3.0",
+    "vuepress": "next",
+    "vuepress-plugin-right-anchor": "^0.5.5"
+  }
+}
