@@ -77,12 +77,18 @@ export default defineUserConfig({
     },
   }),
   extendsPage: (page) => {
+    page.data.readingTime;
     // 在 routeMeta 中设置目录信息
     page.routeMeta = {
       // 目录标题
       title: page.title,
       // ... 其他信息
     };
+  },
+  onInitialized: (app) => {
+    app.pages.forEach((page) => {
+      page.data.readingTime; // { minutes: 3.2, words: 934 }
+    });
   },
   plugins: [
     backToTopPlugin(),
