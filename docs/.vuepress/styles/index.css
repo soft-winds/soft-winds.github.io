@@ -15,3 +15,46 @@
   a{
     text-decoration:none;
   }
+
+/* 外层容器样式 */
+.table-of-contents {
+  position: fixed;
+  top: 5rem;
+  right: 5rem;
+  width: 160px;
+  padding: 0.5rem 1rem;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+/* 列表样式 */
+.table-of-contents ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+/* 列表项样式 */
+.table-of-contents li {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+/* 链接样式 */
+.table-of-contents a {
+  color: #555;
+  text-decoration: none !important;
+  transition: color 0.2s;
+}
+
+/* 链接悬停 & 激活状态 */
+.table-of-contents a:hover,
+.table-of-contents .is-active-link {
+  color: var(--c-brand); /* 使用主题色 */
+  font-weight: bold;
+}
+
+/* 子标题缩进 */
+.table-of-contents .toc-list .toc-list {
+  padding-left: 1rem;
+}

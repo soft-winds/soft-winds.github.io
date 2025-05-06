@@ -77,6 +77,9 @@ export default defineUserConfig({
     },
   }),
   extendsPage: (page) => {
+    if (!page.content.includes("[[toc]]")) {
+      page.content = "[[toc]]\n\n" + page.content;
+    }
     page.data.readingTime;
     // 在 routeMeta 中设置目录信息
     page.routeMeta = {
@@ -90,6 +93,7 @@ export default defineUserConfig({
       page.data.readingTime; // { minutes: 3.2, words: 934 }
     });
   },
+
   plugins: [
     backToTopPlugin(),
     nprogressPlugin(),
@@ -120,7 +124,12 @@ export default defineUserConfig({
       // 启用选项卡
       tabs: true,
     }),
-    tocPlugin({}),
+    tocPlugin({
+      propsOptions: {
+        linkActiveClass: "is-active",
+        listClass: "vuepress-toc",
+      },
+    }),
     activeHeaderLinksPlugin({}),
   ],
 });

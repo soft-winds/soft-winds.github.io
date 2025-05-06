@@ -1,4 +1,5 @@
-<template><div><h1 id="use-dict-介绍" tabindex="-1"><a class="header-anchor" href="#use-dict-介绍"><span>use-dict 介绍</span></a></h1>
+<template><div><nav class="table-of-contents"><ul><li><router-link to="#代码">代码</router-link></li><li><router-link to="#使用">使用</router-link></li></ul></nav>
+<h1 id="use-dict-介绍" tabindex="-1"><a class="header-anchor" href="#use-dict-介绍"><span>use-dict 介绍</span></a></h1>
 <p><code v-pre>use-dict</code> 是一个用于获取字典数据的 Vue Composition API 钩子函数。它可以帮助你在 Vue 组件中轻松地获取和使用字典数据。</p>
 <h2 id="代码" tabindex="-1"><a class="header-anchor" href="#代码"><span>代码</span></a></h2>
 <div class="language-javascript line-numbers-mode line-numbers-mode" data-highlighter="prismjs" data-ext="js"><pre  class="shiki nord vp-code" style="background-color:#2e3440ff;color:#d8dee9ff" v-pre=" language-javascript"><code><span class="line"><span class="line"><span style="color:#81A1C1">import</span><span style="color:#ECEFF4"> {</span><span style="color:#8FBCBB"> onBeforeMount</span><span style="color:#ECEFF4">,</span><span style="color:#8FBCBB"> ref</span><span style="color:#ECEFF4"> }</span><span style="color:#81A1C1"> from</span><span style="color:#ECEFF4"> "</span><span style="color:#A3BE8C">vue</span><span style="color:#ECEFF4">"</span><span style="color:#81A1C1">;</span><span style="color:#616E88"> // 引入vue中的computed、onBeforeMount、ref函数</span></span></span>

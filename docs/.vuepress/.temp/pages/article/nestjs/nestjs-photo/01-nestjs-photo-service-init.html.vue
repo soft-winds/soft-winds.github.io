@@ -1,4 +1,5 @@
-<template><div><h1 id="nestjs-项目初始化" tabindex="-1"><a class="header-anchor" href="#nestjs-项目初始化"><span>NestJS 项目初始化</span></a></h1>
+<template><div><nav class="table-of-contents"><ul><li><router-link to="#项目介绍">项目介绍</router-link></li><li><router-link to="#环境准备">环境准备</router-link><ul><li><router-link to="#_1-安装-node-js">1. 安装 Node.js</router-link></li><li><router-link to="#_2-安装-mysql">2. 安装 MySQL</router-link></li><li><router-link to="#_3-安装-redis">3. 安装 Redis</router-link></li></ul></li><li><router-link to="#项目初始化">项目初始化</router-link><ul><li><router-link to="#_1-创建项目">1. 创建项目</router-link></li><li><router-link to="#_2-安装依赖">2. 安装依赖</router-link></li><li><router-link to="#_3-项目配置">3. 项目配置</router-link></li><li><router-link to="#_4-项目结构">4. 项目结构</router-link></li><li><router-link to="#_5-基础工具类">5. 基础工具类</router-link></li></ul></li><li><router-link to="#下一步">下一步</router-link></li></ul></nav>
+<h1 id="nestjs-项目初始化" tabindex="-1"><a class="header-anchor" href="#nestjs-项目初始化"><span>NestJS 项目初始化</span></a></h1>
 <h2 id="项目介绍" tabindex="-1"><a class="header-anchor" href="#项目介绍"><span>项目介绍</span></a></h2>
 <p><code v-pre>api-photo-serve</code> 是一个基于 NestJS 框架开发的图片服务系统，提供图片上传、管理、分享等功能。本系列文章将详细介绍项目的搭建过程。</p>
 <h2 id="环境准备" tabindex="-1"><a class="header-anchor" href="#环境准备"><span>环境准备</span></a></h2>

@@ -1,4 +1,5 @@
-<template><div><h1 id="nestjs-用户认证模块" tabindex="-1"><a class="header-anchor" href="#nestjs-用户认证模块"><span>NestJS 用户认证模块</span></a></h1>
+<template><div><nav class="table-of-contents"><ul><li><router-link to="#用户模块实现">用户模块实现</router-link><ul><li><router-link to="#_1-用户实体">1. 用户实体</router-link></li><li><router-link to="#_2-用户服务">2. 用户服务</router-link></li><li><router-link to="#_3-用户控制器">3. 用户控制器</router-link></li></ul></li><li><router-link to="#认证模块实现">认证模块实现</router-link><ul><li><router-link to="#_1-认证服务">1. 认证服务</router-link></li><li><router-link to="#_2-jwt-策略">2. JWT 策略</router-link></li><li><router-link to="#_3-认证控制器">3. 认证控制器</router-link></li><li><router-link to="#_4-角色守卫">4. 角色守卫</router-link></li></ul></li><li><router-link to="#下一步">下一步</router-link></li></ul></nav>
+<h1 id="nestjs-用户认证模块" tabindex="-1"><a class="header-anchor" href="#nestjs-用户认证模块"><span>NestJS 用户认证模块</span></a></h1>
 <h2 id="用户模块实现" tabindex="-1"><a class="header-anchor" href="#用户模块实现"><span>用户模块实现</span></a></h2>
 <h3 id="_1-用户实体" tabindex="-1"><a class="header-anchor" href="#_1-用户实体"><span>1. 用户实体</span></a></h3>
 <p>创建 <code v-pre>src/modules/user/entities/user.entity.ts</code>：</p>

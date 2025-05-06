@@ -1,4 +1,5 @@
-<template><div><h1 id="crypto-介绍" tabindex="-1"><a class="header-anchor" href="#crypto-介绍"><span>crypto 介绍</span></a></h1>
+<template><div><nav class="table-of-contents"><ul><li><router-link to="#安装">安装</router-link></li><li><router-link to="#代码">代码</router-link></li><li><router-link to="#使用">使用</router-link></li></ul></nav>
+<h1 id="crypto-介绍" tabindex="-1"><a class="header-anchor" href="#crypto-介绍"><span>crypto 介绍</span></a></h1>
 <p><code v-pre>crypto</code> 加密解密</p>
 <h2 id="安装" tabindex="-1"><a class="header-anchor" href="#安装"><span>安装</span></a></h2>
 <div class="language-bash line-numbers-mode line-numbers-mode" data-highlighter="prismjs" data-ext="sh"><pre  class="shiki nord vp-code" style="background-color:#2e3440ff;color:#d8dee9ff" v-pre=" language-bash"><code><span class="line"><span class="line"><span style="color:#88C0D0">npm</span><span style="color:#A3BE8C"> install</span><span style="color:#A3BE8C"> crypto-js</span></span></span></code></pre>

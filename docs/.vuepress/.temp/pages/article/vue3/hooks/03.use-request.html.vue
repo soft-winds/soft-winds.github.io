@@ -1,4 +1,5 @@
-<template><div><h1 id="use-request-介绍" tabindex="-1"><a class="header-anchor" href="#use-request-介绍"><span>use-request 介绍</span></a></h1>
+<template><div><nav class="table-of-contents"><ul><li><router-link to="#代码">代码</router-link></li><li><router-link to="#使用">使用</router-link></li><li><router-link to="#参数">参数</router-link></li><li><router-link to="#返回值">返回值</router-link></li></ul></nav>
+<h1 id="use-request-介绍" tabindex="-1"><a class="header-anchor" href="#use-request-介绍"><span>use-request 介绍</span></a></h1>
 <p><code v-pre>use-request</code> 是一个用于处理 HTTP 请求的 Vue 组合式 API。它提供了一种简洁的方式来发起请求、处理响应和错误，并且可以与 Vue 的响应式系统无缝集成。</p>
 <h2 id="代码" tabindex="-1"><a class="header-anchor" href="#代码"><span>代码</span></a></h2>
 <div class="language-javascript line-numbers-mode line-numbers-mode" data-highlighter="prismjs" data-ext="js"><pre  class="shiki nord vp-code" style="background-color:#2e3440ff;color:#d8dee9ff" v-pre=" language-javascript"><code><span class="line"><span class="line"><span style="color:#81A1C1">import</span><span style="color:#ECEFF4"> {</span><span style="color:#8FBCBB"> ref</span><span style="color:#ECEFF4"> }</span><span style="color:#81A1C1"> from</span><span style="color:#ECEFF4"> "</span><span style="color:#A3BE8C">vue</span><span style="color:#ECEFF4">"</span><span style="color:#81A1C1">;</span></span></span>
